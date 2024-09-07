@@ -1,0 +1,28 @@
+[package]
+name = "cascade-email"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"    
+authors = ["Andy Garcia <agf030124@gmail.com>"]
+license = "MIT"
+description = """A simple tool for send various emails using datas from excell"""
+keywords = ["utility","tool", "emails", "alias", "linux"]
+categories = ["command-line-interface","command-line-utilities","email"]
+homepage = "https://github.com/garcia-andy/cascade-email-rs"
+repository = "https://github.com/garcia-andy/cascade-email-rs"
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+calamine = "0.25.0"
+handlebars = "6.1.0"
+lettre = "0.11.8"
+serde = { version = "1.0.210", features = ["derive"] }
+serde_json = "1.0.128"
+
+[package.metadata.commands]
+check = "cargo fmt && cargo check"
+build = "cargo cmd check && cargo build"
+release = "cargo build --release"
+run = "cargo cmd build && ./target/debug/cascade-email-rs"

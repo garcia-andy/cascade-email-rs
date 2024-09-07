@@ -1,0 +1,16 @@
+{
+    "mailer": {
+        "domain": "gmail.com",
+        "username": "agf030124",
+        "password": "",
+        "relay": "smtp.gmail.com",
+        "remitente": "Andy Garcia",
+        "subject": "Rust test email",
+        "content": "lorem ipsum dolor sit amet"
+    },
+    "xlsx": {
+        "name": "nombres_y_apellidos",
+        "mail": "correo"
+    }
+        
+}

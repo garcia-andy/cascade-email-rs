@@ -1,0 +1,4 @@
+Buenos días {{nombres_y_apellidos}} ({{correo}} - {{organismo_central}}),
+le informamos que tu usuario {{usuario}} ha sido creado con éxito.
+Por favor, utiliza la siguiente contraseña para acceder a tu cuenta:
+{{contraseña}}
