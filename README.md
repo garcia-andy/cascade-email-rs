@@ -1,5 +1,5 @@
 # cascade-email-rs
-![GitHub License](https://img.shields.io/github/license/garcia-andy/cascade-email-rs)
+![Crates.io License](https://img.shields.io/crates/l/cascade-email)
 
 Una utilidad configurable para enviar correos a varios destinatarios a partir de un archivo de Excel.
 
